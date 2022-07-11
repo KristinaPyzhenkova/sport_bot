@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-RETRY_TIME = 2880
+RETRY_TIME = 172800
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 logger = logging.getLogger(__name__)
